@@ -5,9 +5,6 @@ import WeatherDetails from "./components/weather-details/WeatherDetails.jsx";
 import './App.css';
 
 function App() {
-  // eslint-disable-next-line no-restricted-globals
-  // console.log(screen.width);
-
   return (
     <div className="app">
       <main>

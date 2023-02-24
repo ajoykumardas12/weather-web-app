@@ -8,7 +8,7 @@ function UVIndex() {
             <div className="more-details-item-top">
                 <div className="more-details-title">UV index</div>
                 <div className="more-details-icon">
-                    <span className="material-icons-outlined">water_drop</span>
+                    <span className="material-icons-outlined uv-sun-icon">wb_sunny</span>
                 </div>
             </div>
             <div className="more-details-item-text">

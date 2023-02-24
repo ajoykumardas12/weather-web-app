@@ -8,7 +8,7 @@ function Humidity() {
             <div className="more-details-item-top">
                 <div className="more-details-title">Humidity</div>
                 <div className="more-details-icon">
-                    <span className="material-icons-outlined">water_drop</span>
+                    <span className="material-icons-outlined water-drop-icon">water_drop</span>
                 </div>
             </div>
             <div className="more-details-item-text">

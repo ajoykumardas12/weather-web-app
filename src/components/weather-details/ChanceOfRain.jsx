@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./MoreDetailsItem.css";
+import UmbrellaIcon from "../../icons/umbrella-outline.svg";
 
 function ChanceOfRain() {
     return (
@@ -8,7 +9,7 @@ function ChanceOfRain() {
             <div className="more-details-item-top">
                 <div className="more-details-title">Chance of rain</div>
                 <div className="more-details-icon">
-                    <span className="material-icons-outlined">water_drop</span>
+                    <img src={UmbrellaIcon} alt="Umbrella icon" className="umbrella-icon"/>
                 </div>
             </div>
             <div className="more-details-item-text">

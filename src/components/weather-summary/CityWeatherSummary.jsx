@@ -1,6 +1,9 @@
 import React from "react";
 
 import "./CityWeatherSummary.css";
+import SunriseSVG from "../../icons/sunrise_icon.svg";
+import SunsetSVG from "../../icons/sunset_icon.svg";
+
 
 function CityWeatherSummary() {
     return (
@@ -17,11 +20,11 @@ function CityWeatherSummary() {
                 </div>
                 <div className="sunrise-and-sunset">
                     <div className="sunrise">
-                        <span className="material-icons-outlined">wb_twilight</span>
+                        <img src={SunriseSVG} alt="sunrise" className="sunrise-icon"/>
                         <p>07:19</p>
                     </div>
                     <div className="sunset">
-                        <span className="material-icons-outlined">wb_twilight</span>
+                        <img src={SunsetSVG} alt="sunset" className="sunset-icon"/>
                         <p>19:32</p>
                     </div>
                 </div>

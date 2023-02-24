@@ -15,3 +15,8 @@
 .more-details-item-text{
     text-align: center;
 }
+
+.umbrella-icon,
+.thermometer-icon{
+    width: 1.6rem;
+}

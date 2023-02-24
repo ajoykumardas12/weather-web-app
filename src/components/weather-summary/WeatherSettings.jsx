@@ -5,9 +5,7 @@ import "./WeatherSettings.css";
 function WeatherSettings() {
     return (
         <div className="weather-settings">
-            <button className="add-city-button">
-                <span className="material-icons-outlined add-icon">add</span>
-            </button>
+            <span className="material-icons-outlined add-icon">add</span>
             <div className="city-pagination">
                 <span className="city1">1</span>
                 <span className="city1">2</span>

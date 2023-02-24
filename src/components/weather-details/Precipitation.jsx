@@ -1,14 +1,15 @@
 import React from "react";
 
 import "./MoreDetailsItem.css";
+import RainIcon from "../../icons/rain_icon.svg";
 
 function Precipitation() {
     return (
         <div className="more-details-item grid-item">
             <div className="more-details-item-top">
-                <div className="more-details-title">Precipitation</div>
+                <div className="more-details-title precipitation-icon">Precipitation</div>
                 <div className="more-details-icon">
-                    <span className="material-icons-outlined">water_drop</span>
+                    <img src={RainIcon} alt="" />
                 </div>
             </div>
             <div className="more-details-item-text">

@@ -8,7 +8,7 @@ function Wind() {
             <div className="more-details-item-top">
                 <div className="more-details-title">Wind</div>
                 <div className="more-details-icon">
-                    <span className="material-icons-outlined">water_drop</span>
+                    <span className="material-icons-outlined wind-icon">air</span>
                 </div>
             </div>
             <div className="more-details-item-animation">

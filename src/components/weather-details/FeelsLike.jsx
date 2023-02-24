@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./MoreDetailsItem.css";
+import ThermometerIcon from "../../icons/thermometer-outline.svg"
 
 function FeelsLike() {
     return (
@@ -8,7 +9,7 @@ function FeelsLike() {
             <div className="more-details-item-top">
                 <div className="more-details-title">Feels like</div>
                 <div className="more-details-icon">
-                    <span className="material-icons-outlined">water_drop</span>
+                    <img src={ThermometerIcon} alt="Thermometer icon" className="thermometer-icon"/>
                 </div>
             </div>
             <div className="more-details-item-text">
