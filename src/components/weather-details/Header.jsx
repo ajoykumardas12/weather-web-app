@@ -1,6 +1,7 @@
 import React from "react";
 
 import ProfileAvatar from "../../images/profile-img.jpg";
+import "./Header.css";
 
 function Header() {
     return (
@@ -11,11 +12,11 @@ function Header() {
             </div>
             <div className="user">
                 <div className="user-settings">
-                    <span class="material-icons-outlined">more_horiz</span>
-                    <div className="userAvatar">
-                        <img src={ProfileAvatar} alt="User Avatar" />
-                    </div>
+                    <span className="material-icons-outlined">more_horiz</span>
                 </div>
+                <div className="user-avatar">
+                        <img src={ProfileAvatar} alt="User Avatar" className="avatar"/>
+                    </div>
             </div>
         </div>
     );

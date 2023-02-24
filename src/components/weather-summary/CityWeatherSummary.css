@@ -1,0 +1,24 @@
+.city-weather-summary{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.city{
+    display: flex;
+    justify-content: space-between;
+}
+.city-name{
+    display: flex;
+}
+.sunrise,
+.sunset{
+    display: flex;
+    gap: 0.3rem;
+}
+
+.change-city{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}

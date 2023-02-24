@@ -1,0 +1,7 @@
+.weather-details{
+    min-width: calc(100% - 18rem);
+    min-height: 100%;
+    padding: 2.5rem;
+    background: #E4F1FF;
+    border-radius: 2.5rem 0 0 2.5rem;
+}

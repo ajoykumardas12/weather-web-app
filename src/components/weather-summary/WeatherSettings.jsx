@@ -1,10 +1,12 @@
 import React from "react";
 
+import "./WeatherSettings.css";
+
 function WeatherSettings() {
     return (
         <div className="weather-settings">
-            <button>
-                <span class="material-icons-outlined">add</span>
+            <button className="add-city-button">
+                <span className="material-icons-outlined add-icon">add</span>
             </button>
             <div className="city-pagination">
                 <span className="city1">1</span>

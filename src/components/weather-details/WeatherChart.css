@@ -1,0 +1,18 @@
+.weather-chart{
+    margin: 2rem 0;
+    padding: 1rem 1.3rem;
+    background: #fff;
+    border-radius: 2rem;
+
+    min-height: 15rem;
+}
+
+.title-container{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    
+}
+.chart-options{
+    margin-left: auto;
+}

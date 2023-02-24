@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.avatar{
+    display: block;
+    width: 2rem;
+    border-radius: 0.4rem;
+}

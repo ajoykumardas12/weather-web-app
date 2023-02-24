@@ -1,0 +1,17 @@
+.more-details-item{
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.more-details-item-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.more-details-item-text{
+    text-align: center;
+}

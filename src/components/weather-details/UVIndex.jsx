@@ -1,18 +1,23 @@
 import React from "react";
 
+import "./MoreDetailsItem.css";
+
 function UVIndex() {
     return (
-        <div className="more-details-item">
-            <div>
+        <div className="more-details-item grid-item">
+            <div className="more-details-item-top">
                 <div className="more-details-title">UV index</div>
                 <div className="more-details-icon">
-                    <span class="material-icons-outlined">water_drop</span>
+                    <span className="material-icons-outlined">water_drop</span>
                 </div>
             </div>
-            <div>
-                82% bad
+            <div className="more-details-item-text">
+                <span>4 </span>
+                <span>medium</span>
             </div>
-            
+            <div className="more-details-item-animation">
+
+            </div>
         </div>
     );
 }

@@ -6,19 +6,21 @@ import UVIndex from "./UVIndex";
 import FeelsLike from "./FeelsLike";
 import ChanceOfRain from "./ChanceOfRain";
 
+import "./MoreDetails.css";
+
 function MoreWeatherDetails() {
     return (
-        <div className="more-weather-details">
+        <div className="more-details">
             <div className="more-details-title">
                 More details of today's weather
             </div>
             <div className="grid-container">
-                <Humidity className="grid-item" />
-                <Wind className="grid-item" />
-                <Precipitation className="grid-item" />
-                <UVIndex className="grid-item" />
-                <FeelsLike className="grid-item" />
-                <ChanceOfRain className="grid-item" />
+                <Humidity />
+                <Wind />
+                <Precipitation />
+                <UVIndex />
+                <FeelsLike />
+                <ChanceOfRain />
             </div>
         </div>
     );
