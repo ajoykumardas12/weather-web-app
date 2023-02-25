@@ -3,14 +3,28 @@
     justify-content: space-between;
 }
 
+.welcome{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.check-weather{
+    margin-top: 0.3rem;
+    font-size: 1.1rem;
+}
+
 .user{
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1rem;
 }
-
+.user-settings-icon{
+    display: block;
+    font-size: 2rem;
+    cursor: pointer;
+}
 .avatar{
     display: block;
-    width: 2rem;
-    border-radius: 0.4rem;
+    width: 2.8rem;
+    border-radius: 0.7rem;
+    cursor: pointer;
 }

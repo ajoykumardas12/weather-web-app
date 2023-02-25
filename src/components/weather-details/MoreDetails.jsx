@@ -1,10 +1,10 @@
 import React from "react";
-import Humidity from "./Humidity";
-import Wind from "./Wind";
-import Precipitation from "./Precipitation";
-import UVIndex from "./UVIndex";
-import FeelsLike from "./FeelsLike";
-import ChanceOfRain from "./ChanceOfRain";
+import Humidity from "./more-details-items/Humidity";
+import Wind from "./more-details-items/Wind";
+import Precipitation from "./more-details-items/Precipitation";
+import UVIndex from "./more-details-items/UVIndex";
+import FeelsLike from "./more-details-items/FeelsLike";
+import ChanceOfRain from "./more-details-items/ChanceOfRain";
 
 import "./MoreDetails.css";
 

@@ -1,7 +1,8 @@
 import React from "react";
 
-import ProfileAvatar from "../../images/profile-img.jpg";
 import "./Header.css";
+import ProfileAvatar from "../../images/profile-img.jpg";
+
 
 function Header() {
     return (
@@ -12,7 +13,7 @@ function Header() {
             </div>
             <div className="user">
                 <div className="user-settings">
-                    <span className="material-icons-outlined">more_horiz</span>
+                    <span className="material-icons-outlined user-settings-icon">more_horiz</span>
                 </div>
                 <div className="user-avatar">
                         <img src={ProfileAvatar} alt="User Avatar" className="avatar"/>

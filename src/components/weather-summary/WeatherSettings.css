@@ -1,5 +1,4 @@
 .weather-settings{
-    height: 3rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -8,7 +7,70 @@
 .add-icon{
     width: 1.5rem;
     height: 1.5rem;
+    color: #5C9CE5;
+    background: #fff;
+    border-radius: 0.45rem;
+    cursor: pointer;
 }
+.city-pagination{
+    display: flex;
+    gap: 0.2rem;
+}
+.city-index{
+    width: 0.45rem;
+    height: 0.45rem;
+    border-radius: 50%;
+    display: inline-block;
+    background: #9DC3EF;
+}
+.current-index{
+    width: 1.3rem;
+    border-radius: 0.3rem;
+    background: #fff;
+}
+
 .input-change{
     display: flex;
+    align-items: center;
+    gap: 0.15rem;
+
+    font-size: 0.7rem;
+}
+
+.input-change input[type=checkbox]{
+	height: 0;
+	width: 0;
+	visibility: hidden;
+}
+.input-change label {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 1.7rem;
+	height: 0.7rem;
+	background: #DCDCDC;
+	display: block;
+	border-radius: 100px;
+	position: relative;
+}
+.input-change label:after {
+	content: '';
+	position: absolute;
+	top: -0.2rem;
+	left: 0;
+	width: 1.1rem;
+	height: 1.1rem;
+	background: #fff;
+	border-radius: 50%;
+	transition: 0.3s;
+}
+.input-change input:checked + label:after {
+	left: calc(100%);
+	transform: translateX(-100%);
+}
+
+.unit{
+    font-weight: 200;
+}
+.active-unit{
+    font-weight: 500;
 }

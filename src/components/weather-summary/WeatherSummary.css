@@ -1,5 +1,7 @@
 .weather-summary{
-    min-width: 18rem;
+    min-width: 22rem;
     min-height: 100vh;
-    padding: 1.8rem;
+    padding: 3rem 2rem;
+
+    color: #fff;
 }
