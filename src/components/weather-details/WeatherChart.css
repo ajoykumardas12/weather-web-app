@@ -1,18 +1,65 @@
-.weather-chart{
+.weather-chart-container{
     margin: 2rem 0;
-    padding: 1rem 1.3rem;
+    padding: 1.4rem;
     background: #fff;
     border-radius: 2rem;
-
-    min-height: 15rem;
 }
 
 .title-container{
     display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
-    
+    align-items: center;
+    margin: 0.2rem 0.5rem 0;
 }
-.chart-options{
+.title{
+    font-size: 1.1rem;
+}
+.title-options{
     margin-left: auto;
+    margin-right: 1rem;
+}
+.title-options,
+.title-next{
+    display: flex;
+    align-items: center;
+    padding: 0.05rem 0.1rem 0.2rem 0.45rem;
+    background: #F1F1F1;
+    border-radius: 0.5rem;
+    font-size: 0.95rem;
+    cursor: pointer;
+}
+.expand-more-icon,
+.navigate-next-icon{
+    font-size: 1.3rem;
+    margin-top: 0.2rem;
+}
+
+.weather-data{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0.5rem 0;
+}
+.weather-data-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+}
+.data-time{
+    font-size: 0.8rem;
+}
+.data-icon{
+    width: 1.5rem;
+}
+.data-temperature{
+    font-size: 1.1rem;
+}
+.weather-data-item:first-child{
+    font-weight: 500;
+}
+
+.chart{
+    margin-top: 0.8rem;
+    width: 100%;
+    height: 9rem;
+    position: relative;
 }

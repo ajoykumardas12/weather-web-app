@@ -4,7 +4,7 @@ import "./MoreDetailsItem.css";
 import UmbrellaIcon from "../../../icons/umbrella-outline.svg";
 
 function ChanceOfRain() {
-    const chanceOfRainPercentage = 42;
+    const chanceOfRainPercentage = 23;
 
     return (
         <div className="more-details-item grid-item">
@@ -15,7 +15,7 @@ function ChanceOfRain() {
                 </div>
             </div>
             <div className="more-details-item-text">
-                <span className="more-details-item-text-value">42%</span>
+                <span className="more-details-item-text-value">{chanceOfRainPercentage + "%"}</span>
             </div>
             <div className="more-details-item-animation">
                 <div className="progress-bar-container">

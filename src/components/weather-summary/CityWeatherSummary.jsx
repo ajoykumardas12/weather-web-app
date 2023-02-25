@@ -34,12 +34,7 @@ function CityWeatherSummary() {
             <div className="change-city">
                 <span className="material-icons-outlined previous-city previous-icon">arrow_back_ios</span>
                 <div className="current-city-condition">
-                    <div className="temperature">
-                    {/* <span className="current-temperature"> */}
-                    27
-                    {/* </span> */}
-                    &deg;
-                    </div>
+                    <div className="temperature">27&deg;</div>
                     <div className="weather-condition">
                         <img src={SunnyIcon} alt="weather condition icon" className="weather-condition-icon"/>
                         <span className="condition">Sunny</span>
