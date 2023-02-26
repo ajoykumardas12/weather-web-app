@@ -5,6 +5,7 @@ import SunriseSVG from "../../icons/sunrise_icon.svg";
 import SunsetSVG from "../../icons/sunset_icon.svg";
 import NavigateIcon from "../../icons/navigate-outline.svg";
 import SunnyIcon from "../../icons/sunny-outline.svg";
+import AnimatedWeatherConditionIcon from "../../images/clear-day.svg";
 
 
 function CityWeatherSummary() {
@@ -41,6 +42,9 @@ function CityWeatherSummary() {
                     </div>
                 </div>
                 <span className="material-icons-outlined next-city next-icon">arrow_forward_ios</span>
+            </div>
+            <div className="animated-icon-container">
+                <img src={AnimatedWeatherConditionIcon} alt="weather condition icon" className="animated-weather-condition-icon"/>
             </div>
         </div>
     );

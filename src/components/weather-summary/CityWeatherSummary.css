@@ -67,9 +67,18 @@
     width: 1.6rem;
 }
 
-
 .previous-icon,
 .next-icon{
     color: #9DC3EF;
     cursor: pointer;
+}
+
+.animated-icon-container{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.animated-weather-condition-icon{
+    width: 12rem;
 }
