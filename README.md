@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Live
+
+[View live site](https://weather-web-app-ajoy.vercel.app/)
+
 ## To run the app in local environment
 
 In the project directory, you can run:
@@ -10,6 +14,10 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+## Note
+
+This website is not responsive (yet). The design is made for desktop as of now.
 
 ## Libraries Used
 
