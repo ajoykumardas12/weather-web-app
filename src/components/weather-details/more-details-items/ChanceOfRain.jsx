@@ -1,4 +1,5 @@
 import React from "react";
+import ProgressBar from "./ProgressBar";
 
 import "./MoreDetailsItem.css";
 import UmbrellaIcon from "../../../icons/umbrella-outline.svg";
@@ -17,20 +18,7 @@ function ChanceOfRain() {
             <div className="more-details-item-text">
                 <span className="more-details-item-text-value">{chanceOfRainPercentage + "%"}</span>
             </div>
-            <div className="more-details-item-animation">
-                <div className="progress-bar-container">
-                    <div className="progress-labels">
-                        <div className="progress-label">0%</div>
-                        <div className="progress-label">25%</div>
-                        <div className="progress-label">50%</div>
-                        <div className="progress-label">75%</div>
-                        <div className="progress-label">100%</div>
-                    </div>
-                    <div className="progress-bar">
-                        <div className="progress" style={{width: chanceOfRainPercentage + "%"}}></div>
-                    </div>
-                </div>
-            </div>
+            <ProgressBar labels={['0%','25%','50%','75%','100%']} percentage={chanceOfRainPercentage} />
         </div>
     );
 }

@@ -14,6 +14,12 @@ function WeatherDataChart(props) {
                 x: {
                     grid: {
                         color: '#62747a'
+                    },
+                    ticks: {
+                        font: {
+                            family: "Outfit",
+                            size: "14"
+                        }
                     }
                 },
                 y: {

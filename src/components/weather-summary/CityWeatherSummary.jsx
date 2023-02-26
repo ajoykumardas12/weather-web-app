@@ -5,7 +5,7 @@ import SunriseSVG from "../../icons/sunrise_icon.svg";
 import SunsetSVG from "../../icons/sunset_icon.svg";
 import NavigateIcon from "../../icons/navigate-outline.svg";
 import SunnyIcon from "../../icons/sunny-outline.svg";
-import AnimatedWeatherConditionIcon from "../../images/clear-day.svg";
+import AnimatedWeatherConditionIcon from "../../icons/clear-day.svg";
 
 
 function CityWeatherSummary() {

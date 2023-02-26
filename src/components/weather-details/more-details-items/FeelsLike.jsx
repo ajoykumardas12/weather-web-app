@@ -1,4 +1,5 @@
 import React from "react";
+import ProgressBar from "./ProgressBar";
 
 import "./MoreDetailsItem.css";
 import ThermometerIcon from "../../../icons/thermometer-outline.svg"
@@ -18,18 +19,7 @@ function FeelsLike() {
             <div className="more-details-item-text">
                 <span className="more-details-item-text-value">30&deg;</span>
             </div>
-            <div className="more-details-item-animation">
-                <div className="progress-bar-container">
-                    <div className="progress-labels">
-                        <div className="progress-label">0&deg;</div>
-                        <div className="progress-label">30&deg;</div>
-                        <div className="progress-label">60&deg;</div>
-                    </div>
-                    <div className="progress-bar">
-                        <div className="progress" style={{width: feelsLikePercentage + "%"}}></div>
-                    </div>
-                </div>
-            </div>
+            <ProgressBar labels={['0\u00B0','30\u00B0','60\u00B0']} percentage={feelsLikePercentage} />
         </div>
     );
 }
